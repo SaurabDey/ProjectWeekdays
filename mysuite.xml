@@ -7,13 +7,14 @@
 			<class name="com.selenium.ProjectWeekdays.SeleniumTest" />
 		</classes>
 	</test> <!-- Test -->
-
+<!--
 	<test name="IETest">
 		<parameter name="bro" value="ie"></parameter>
 		<classes>
 			<class name="com.selenium.ProjectWeekdays.SeleniumTest" />
 		</classes>
-	</test> <!-- Test -->
+	</test> 
+-->
 
 	<test name="FirefoxTest">
 		<parameter name="bro" value="firefox"></parameter>
