@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="tests">
 
-	<test name="ChromeTest">
-		<parameter name="bro" value="chrome"></parameter>
+	<test name="Test">
 		<classes>
-			<class name="com.selenium.ProjectWeekdays.SeleniumTest" />
+			<class name="com.cucum.pack.RunnerMyClass" />
 		</classes>
-	</test> <!-- Test -->
+	</test> 
 <!--
 	<test name="IETest">
 		<parameter name="bro" value="ie"></parameter>
@@ -14,13 +13,13 @@
 			<class name="com.selenium.ProjectWeekdays.SeleniumTest" />
 		</classes>
 	</test> 
--->
+
 
 	<test name="FirefoxTest">
 		<parameter name="bro" value="firefox"></parameter>
 		<classes>
 			<class name="com.selenium.ProjectWeekdays.SeleniumTest" />
 		</classes>
-	</test> <!-- Test -->
-
+	</test> 
+-->
 </suite> <!-- Suite -->
