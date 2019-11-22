@@ -3,7 +3,7 @@
 
 	<test name="Test">
 		<classes>
-			<class name="com.cucum.pack.RunnerMyClass" />
+			<class name="com.selenium.ProjectWeekdays.MultipleCode" />
 		</classes>
 	</test> 
 <!--

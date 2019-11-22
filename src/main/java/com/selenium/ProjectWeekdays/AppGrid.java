@@ -20,8 +20,6 @@ public class AppGrid {
 		AppGrid ref = new AppGrid();
 		ref.setup();
 
-		LoginClass log = new LoginClass(ref.driver);
-		log.login();
 
 		ref.teardown();
 

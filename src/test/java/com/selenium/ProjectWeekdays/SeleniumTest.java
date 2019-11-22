@@ -16,8 +16,7 @@ public class SeleniumTest {
 
 	@Test
 	public void z() {
-		LoginClass log = new LoginClass(driver);
-		log.login();
+
 	}
 
 	@Parameters("bro")

@@ -16,9 +16,6 @@ public class App {
 		App ref = new App();
 		ref.setup();
 
-		LoginClass log = new LoginClass(ref.driver);
-		log.login();
-
 		ref.teardown();
 
 	}
